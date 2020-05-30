@@ -1,0 +1,23 @@
+<svg id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0069d2"/>
+      <stop offset="1" stop-color="#28e1a5"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="mask" d="M9,0V3.6H7.2c-.6,0-.9.7-.9,1.3V7.1H9v3.6H6.3V18H2.7V10.8H0V7.2H2.7V3.6A3.585,3.585,0,0,1,6.3,0H9" transform="translate(8 3)" fill="#2e3134"/>
+    </clipPath>
+  </defs>
+  <path id="Fill-16" d="M0,20A20,20,0,1,1,20,40,20.022,20.022,0,0,1,0,20Z" fill="url(#linear-gradient)"/>
+  <g id="Social_Social_Media_facebook" data-name="Social / Social Media / facebook" transform="translate(8 8)">
+    <rect id="Social_Social_Media_facebook_background" data-name="Social / Social Media / facebook background" width="24" height="24" fill="none"/>
+    <g id="Group_2" data-name="Group 2">
+      <path id="mask-2" data-name="mask" d="M9,0V3.6H7.2c-.6,0-.9.7-.9,1.3V7.1H9v3.6H6.3V18H2.7V10.8H0V7.2H2.7V3.6A3.585,3.585,0,0,1,6.3,0H9" transform="translate(8 3)" fill="#2e3134"/>
+      <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+        <g id="Select_Color" data-name="Select Color">
+          <rect id="ui_color_white" data-name="ui/color/white" width="24" height="24" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

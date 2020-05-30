@@ -1,0 +1,165 @@
+header{
+    height: 10vh;
+}
+
+.top-menu-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid $color-grey-light-2;
+
+
+    @include respond(tab-port) {
+        justify-content: start;
+    }
+    
+    & li{
+
+        @include respond(tab-port){
+            padding: 1rem 2rem;
+            border-right: 2px solid $color-grey-light-2;
+        }
+    }
+
+    & a{
+        color: $color-primary;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        transition: .2s;
+
+        &:hover {
+            color: $color-blue;
+        }
+    }   
+}
+
+.main-menu-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid $color-grey-dark-2;
+    padding: 2rem 0px;
+
+    @include respond(tab-port) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: initial;
+        padding: initial;
+        height: 6vh;
+        position: relative;
+    }
+
+    &__logo{
+        @include respond(tab-port){
+            padding-left: 2rem;
+        }
+    }
+}
+
+.main-menu-links{
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-grey-light-2;
+    position: fixed;
+    top: 0;
+    right: -101vw; /* remove menu from view */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: all 650ms ease-in-out;
+
+    @include respond(tab-port){
+        flex-direction: row;
+        align-items: center;
+        width: initial;
+        height: initial;
+        background-color: initial;
+        position: initial;
+        top: initial;
+        right: initial;
+        transition: initial;
+
+    }
+
+    &.active{
+        right: 0;
+    }
+
+    &__navigation {
+        &--container{
+
+            @include respond (tab-port){
+                display: flex;
+                @include absCenter;
+            }
+            
+        }
+    }
+
+    &__navigation li{
+        margin: 3rem 0;
+        text-align: center;
+        transition: all .3s;
+        outline: none;
+
+        @include respond(tab-port) {
+            padding: 0 1rem;
+            margin: initial;
+        }
+
+        & a{
+            font-size: 3rem;
+            color: $color-grey-dark-3;
+            transition: all .2s;
+            border-bottom: 3px solid transparent;
+            padding-bottom: 3px;
+
+            @include respond(tab-port){
+                font-size: 2rem;
+
+                &:hover {
+                    border-bottom: 3px solid $color-grey-dark-3;
+                }
+                
+            }
+        }
+    }
+}
+
+.fav-icons{
+    font-size: 3rem;
+    color: $color-grey-dark-3;
+    cursor: pointer;
+
+    @include respond(tab-port){
+        display: none;
+    }
+}
+
+#close-icon{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
+
+#signup-button{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: $color-blue;
+    color: $color-grey-light-1;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        background-color: rgba($color-blue, .7);
+    }
+}
+

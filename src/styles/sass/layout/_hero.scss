@@ -1,0 +1,56 @@
+.hero-section{
+
+    &__container{
+        @include absCenter;
+        width: 100%;
+
+        &--heading{
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            color: $color-white;
+            backface-visibility: hidden; /* hides the slight shakiness from the animations */
+            margin-bottom: 2rem;
+            display: block;
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 500;
+            animation-name: moveInLeft; //animation to have text come in from the right
+            animation-duration: 1.5s;
+            animation-timing-function: ease-out ; /* how fast or slow parameters happen over time */
+
+            @include respond(tab-port) {
+                font-size: 5rem;
+            }
+        }
+
+        &--button{
+            display: block;
+            width: 100%;
+            max-width: 20rem;
+            margin: 0 auto;
+            padding: 10px 15px;
+            background-color: $color-blue;
+            color: $color-grey-light-1;
+            text-transform: uppercase;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            backface-visibility: hidden; /* hides the slight shakiness from the animations */
+            animation-name: moveInRight; //animation to have text come in from the right
+            animation-duration: 1.5s;
+            animation-timing-function: ease-out ; /* how fast or slow parameters happen over time */
+            transition: all .3s;
+            cursor: pointer;
+
+            @include respond(tab-port){
+                padding: 12px 17px;
+            }
+            
+            &:hover {
+                transform: scale(1.2)
+            }
+        }
+    }
+}
+

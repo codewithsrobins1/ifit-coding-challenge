@@ -1,0 +1,10 @@
+.workout-grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); 
+    grid-gap: 3rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}

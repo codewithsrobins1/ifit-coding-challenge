@@ -1,0 +1,48 @@
+.card-slider-section{
+    background-color: $color-grey-light-2;
+
+    &__container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0;
+
+        @include respond (tab-port){
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); 
+            grid-gap: 3rem;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            width: 100%;
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        &--card{
+            width: 100%;
+            height: 15rem;
+            box-shadow: $box-shadow-main;
+            background-color: $color-grey-light-1;
+            position: relative;
+            margin: 2rem 0;
+
+            &-info{
+                position: absolute;
+                @include absCenter;
+                text-align: center;
+                width: 100%;
+
+                & p {
+                    font-size: 1.25rem;
+                    width: 90%;
+                    margin: 0 auto;
+                    padding-top: 1rem;
+
+                    @include respond(tab-port){
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+

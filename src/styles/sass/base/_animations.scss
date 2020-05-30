@@ -1,0 +1,24 @@
+/* Animations */
+@keyframes moveInLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-50rem) /* animate in the X direction (left to right); */
+    }
+
+    100% {
+        opcaity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0% {
+        opacity: 0;
+        transform: translateX(50rem) /* animate in the X direction (left to right); */
+    }
+
+    100% {
+        opcaity: 1;
+        transform: translate(0);
+    }
+}

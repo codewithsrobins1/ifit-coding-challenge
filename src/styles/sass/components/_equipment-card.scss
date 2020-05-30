@@ -1,0 +1,28 @@
+.equipment-card{
+    border: 2px solid $color-grey-light-2;
+    width: 100%;
+    margin: 0 auto;
+    transition: all .3s;
+    
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-2px);      //Animate cards to move up
+        box-shadow: 0 2rem 3rem rgba($color-black, .2);;
+    }
+
+    &__container{
+        text-align: center;
+        padding: 2rem 0rem;
+
+        &--image {
+            height: 100%;
+            max-height: 225px;
+        }
+
+        &--title{
+            font-size: 2rem;
+            padding: 1rem 0px;
+            color: $color-grey-dark;
+        }
+    }
+}

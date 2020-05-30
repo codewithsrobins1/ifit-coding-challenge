@@ -1,0 +1,23 @@
+<svg id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0069d2"/>
+      <stop offset="1" stop-color="#28e1a5"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="mask" d="M19,1.8a9.017,9.017,0,0,1-2.2.6A3.92,3.92,0,0,0,18.5.3a10.639,10.639,0,0,1-2.5.9A3.7,3.7,0,0,0,13.1,0,3.8,3.8,0,0,0,9.3,3.8a2.769,2.769,0,0,0,.1.9,11.3,11.3,0,0,1-8-4A3.292,3.292,0,0,0,.8,2.6,3.659,3.659,0,0,0,2.5,5.7,5.84,5.84,0,0,1,.7,5.3h0A3.754,3.754,0,0,0,3.8,9a3.4,3.4,0,0,1-1,.1A1.7,1.7,0,0,1,2.1,9a3.785,3.785,0,0,0,3.6,2.6A7.913,7.913,0,0,1,.9,13.2a2.769,2.769,0,0,1-.9-.1A9.757,9.757,0,0,0,6,15,10.862,10.862,0,0,0,17.1,4.2V3.7A8.562,8.562,0,0,0,19,1.8" transform="translate(3 5)" fill="#2e3134"/>
+    </clipPath>
+  </defs>
+  <path id="Fill-16" d="M0,20A20,20,0,1,1,20,40,20.022,20.022,0,0,1,0,20Z" fill="url(#linear-gradient)"/>
+  <g id="Social_Social_Media_twitter" data-name="Social / Social Media / twitter" transform="translate(8 8)">
+    <rect id="Social_Social_Media_twitter_background" data-name="Social / Social Media / twitter background" width="24" height="24" fill="none"/>
+    <g id="Group_6" data-name="Group 6">
+      <path id="mask-2" data-name="mask" d="M19,1.8a9.017,9.017,0,0,1-2.2.6A3.92,3.92,0,0,0,18.5.3a10.639,10.639,0,0,1-2.5.9A3.7,3.7,0,0,0,13.1,0,3.8,3.8,0,0,0,9.3,3.8a2.769,2.769,0,0,0,.1.9,11.3,11.3,0,0,1-8-4A3.292,3.292,0,0,0,.8,2.6,3.659,3.659,0,0,0,2.5,5.7,5.84,5.84,0,0,1,.7,5.3h0A3.754,3.754,0,0,0,3.8,9a3.4,3.4,0,0,1-1,.1A1.7,1.7,0,0,1,2.1,9a3.785,3.785,0,0,0,3.6,2.6A7.913,7.913,0,0,1,.9,13.2a2.769,2.769,0,0,1-.9-.1A9.757,9.757,0,0,0,6,15,10.862,10.862,0,0,0,17.1,4.2V3.7A8.562,8.562,0,0,0,19,1.8" transform="translate(3 5)" fill="#2e3134"/>
+      <g id="Mask_Group_6" data-name="Mask Group 6" clip-path="url(#clip-path)">
+        <g id="Select_Color" data-name="Select Color">
+          <rect id="ui_color_white" data-name="ui/color/white" width="24" height="24" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

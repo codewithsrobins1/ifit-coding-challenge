@@ -1,0 +1,120 @@
+.footer-section{
+    background-color: $color-grey-dark-3;
+    color: $color-white;
+
+    &__main {
+        padding: 3rem 0px;
+
+        &-container{
+            display: flex;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            justify-content: space-around;
+
+            &--info{
+
+                &-title{
+                    font-size: 2rem;
+                    padding-bottom: .5em;
+                }
+
+                &-list{
+                    & li {
+                        padding: .5rem 0px;
+                        font-size: 1.5rem;
+
+                        &:hover{
+                            cursor: pointer;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    &__social {
+        border-top: 1px solid $color-grey-dark;
+        border-bottom: 1px solid $color-grey-dark;
+
+        &--container{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 1.5rem 0px;
+
+            & li{
+                transition: all .3s;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.2);
+                }
+            }
+            
+        }
+    }
+
+    &__copyright {
+        &--container{
+            padding-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+
+            @include respond(tab-port) {
+                flex-direction: row;
+                padding-bottom: 0;
+                
+            }
+
+            &-language {
+
+                & select{
+                    background-color: $color-grey-dark-3;
+                    color: $color-white;
+                    border: none;
+                    padding: 2rem 0px;
+                    outline: none;
+
+                    & option {
+                        color: $color-grey-dark-3;
+                        background-color: $color-white;
+                    }
+                }
+            }
+
+            &-legal{
+                display: flex;
+                width: 100%;
+                max-width: 400px;
+                justify-content: space-around;
+            
+                @include respond(tab-port){
+                    @include absCenter;
+                }
+
+                & li {
+                    font-size: 1.25rem;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#copyright {
+    font-weight: 600;
+    cursor: initial;
+}

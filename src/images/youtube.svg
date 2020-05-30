@@ -1,0 +1,23 @@
+<svg id="youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0069d2"/>
+      <stop offset="1" stop-color="#28e1a5"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="mask" d="M2,15.6c-1.6-.5-2-4-2-7.6S.4.9,2,.4A55.422,55.422,0,0,1,10,0a55.422,55.422,0,0,1,8,.4c1.6.5,2,4,2,7.6s-.4,7.1-2,7.6a55.229,55.229,0,0,1-8,.4A55.229,55.229,0,0,1,2,15.6Z" transform="translate(2 4)" fill="#2e3134"/>
+    </clipPath>
+  </defs>
+  <path id="Fill-16" d="M0,20A20,20,0,1,1,20,40,20.022,20.022,0,0,1,0,20Z" fill="url(#linear-gradient)"/>
+  <g id="Social_Social_Media_youtube" data-name="Social / Social Media / youtube" transform="translate(8 8)">
+    <rect id="Social_Social_Media_youtube_background" data-name="Social / Social Media / youtube background" width="24" height="24" fill="none"/>
+    <g id="Group_4" data-name="Group 4">
+      <path id="mask-2" data-name="mask" d="M2,15.6c-1.6-.5-2-4-2-7.6S.4.9,2,.4A55.422,55.422,0,0,1,10,0a55.422,55.422,0,0,1,8,.4c1.6.5,2,4,2,7.6s-.4,7.1-2,7.6a55.229,55.229,0,0,1-8,.4A55.229,55.229,0,0,1,2,15.6Z" transform="translate(2 4)" fill="#2e3134"/>
+      <g id="Mask_Group_4" data-name="Mask Group 4" clip-path="url(#clip-path)">
+        <g id="Select_Color" data-name="Select Color">
+          <rect id="ui_color_white" data-name="ui/color/white" width="24" height="24" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
